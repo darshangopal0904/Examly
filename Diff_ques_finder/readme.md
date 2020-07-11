@@ -1,6 +1,6 @@
-ALGORITHM TO CLASSIFY THE DIFFICULTY OF QUESTION.
+#ALGORITHM TO CLASSIFY THE DIFFICULTY OF QUESTION.
 
-AIM:
+#AIM:
 	To classify the difficulty of the question using the given parameters.
 1) Question type -- MCQ, Fillup, Programming, Match the following
 2) Manually assigned difficulty -- Easy, Medium, Hard
@@ -16,11 +16,11 @@ e) Programming language used if it is programming question (c, c++ , java etc)
 7) Total number of students who have answered it partially correct
 8) Maximum marks allocated for this question
 
-PROGRAMMING LANGUAGE AND PLATFORM USED:
+#PROGRAMMING LANGUAGE AND PLATFORM USED:
 	Programming Language: Python
 	Platform: Google Colab, Anaconda prompt
 
-DESCRIPTION AND PROOF OF CONCEPT:
+#DESCRIPTION AND PROOF OF CONCEPT:
 	The dataset consist of Question type -- MCQ, Fillup, Programming, Match the following,  Manually assigned difficulty -- Easy, Medium, Hard, Total number of students who have attended this question, Time taken by each student to answer this question, Number of times the answer was changed 
   if it is MCQ type question, Number of times the program was compiled if it is programming question, Number of hints used, Programming language used if it is programming question (c, c++ , java etc), Feedback given for this question by other students, Total number of students who have 
   answered it right, Total number of students who have answered it wrong, Total number of students who have answered it partially correct, Maximum marks allocated for this question.	First the dataset is created by taking into account the above mentioned parameters. Then I started to create
@@ -31,7 +31,7 @@ DESCRIPTION AND PROOF OF CONCEPT:
 	We can also visually compare the expected output and the predicted output for the test dataset.	I too have also used the decision tree classifier to classify the difficulty of the questions. Let's build a decision tree classifier using sklearn python library and train the classifier 
   using the training dataset. Then I have given a sample input to test the model.
  
-ALGORITHM:
+#ALGORITHM:
 This algortihm will help the user to find the difficuty of the question faced by students in tests.
 
 1)Import the necessary libraries.
